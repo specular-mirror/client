@@ -1,0 +1,16 @@
+{
+  "id": "clock",
+  "name": "Clock & Calendar",
+  "description": "Display time, date and your Google and / or Apple calendar.",
+  "author": "The Specular Mirror Team",
+  "manifestVersion": "1",
+  "version": "1.0.0",
+  "main": "index.html",
+  "settings": {
+    "calendars": [
+      {"name": "Google Calendar", "token": ""},
+      {"name": "Apple Calendar",  "token": ""},
+      {"name": "iCal Calendar",   "token": ""}
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "default",
+  "name": "Default Layout",
+  "description": "The default Mirror layout.",
+  "author": "The Specular Mirror Team",
+  "version": "1.0.0",
+  "rows": [
+    {
+      "height": "33,3%",
+      "cols": [
+        {"width": "5", "type": "module"},
+        {"width": "2", "type": "empty"},
+        {"width": "5", "type": "module"}
+      ]
+    },
+    {
+      "height": "16,6%",
+      "cols": [
+        {"width": "4", "type": "module"},
+        {"width": "4", "type": "empty"},
+        {"width": "4", "type": "module"}
+      ]
+    },
+    {
+      "height": "33,3%",
+      "cols": [
+        {"width": "12", "type": "action"}
+      ]
+    },
+    {
+      "height": "16,3%",
+      "cols": [
+        {"width": "4", "type": "empty"},
+        {"width": "4", "type": "module"},
+        {"width": "4", "type": "empty"}
+      ]
+    }
+  ]
+}

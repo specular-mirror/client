@@ -63,8 +63,8 @@ function enableDebugging() {
 function includeModules() {
   Core.log("info", "Including enabled modules.");
   Core.getModuleManifests(App.Environment.home+App.Environment.directory+"/modules",
-  function(modules) {
-
+  function(modules, parsed, skipped) {
+    Core.log("info", "Parsed "+parsed+" modules, skipped "+skipped+" modules.");
     var percentageLoad = [70 / modules.length];
     $.each(modules, function(i, module) {
       Core.loadModule(module, function() {

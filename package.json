@@ -5,19 +5,22 @@
   "description": "Specular Mirror Client",
   "repository": "https://github.com/specular-mirror/client",
   "license": "Apache-2.0",
-  "scripts": {
-      "start": "nw"
-  },
+  "maintainers": [
+    {
+    "name": "Sander Laarhoven",
+    "email": "hello@sander.tech",
+    "web": "https://sander.tech"
+    },
+    {
+      "name": "Jesse van der Pluijm",
+      "email": "jessah@hotmail.nl",
+      "web": "https://github.com/skillzzjesse"
+    }
+  ],
   "dependencies": {
-    "nw": "",
     "bootstrap": "",
     "jquery": "",
-    "ncp": "2.x.x"
-  },
-  "devDependencies": {
-    "grunt": "",
-    "grunt-nw-builder": "",
-    "grunt-shell": ""
+    "ncp": ""
   },
   "window": {
     "title": "Specular Mirror Client",

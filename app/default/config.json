@@ -1,0 +1,18 @@
+{
+  "configversion": "1",
+  "debug": true,
+  "savedPresets": [
+    {
+      "name": "Default Preset",
+      "layout": "default",
+      "active": true,
+      "preset": {
+        "s0": "clock",
+        "s1": "weather",
+        "s2": "",
+        "s3": "",
+        "s4": "jasper"
+      }
+    }
+  ]
+}
