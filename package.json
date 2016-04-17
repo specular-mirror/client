@@ -1,0 +1,28 @@
+{
+  "name": "specular",
+  "version": "1.0.0",
+  "main": "./app/index.html",
+  "description": "Specular Mirror Client",
+  "repository": "https://github.com/specular-mirror/client",
+  "license": "Apache-2.0",
+  "scripts": {
+      "start": "nw"
+  },
+  "dependencies": {
+    "nw": "",
+    "bootstrap": "",
+    "jquery": "",
+    "ncp": "2.x.x"
+  },
+  "devDependencies": {
+    "grunt": "",
+    "grunt-nw-builder": "",
+    "grunt-shell": ""
+  },
+  "window": {
+    "title": "Specular Mirror Client",
+    "toolbar": false,
+    "fullscreen": false,
+    "height": 600
+  }
+}

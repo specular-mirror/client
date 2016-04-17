@@ -1,0 +1,51 @@
+/**
+ * Specular Mirror Client v1.0.0
+ * https://github.com/specular-mirror
+ * Copyright Specular Mirror (c) 2016
+ * Licensed under the Apache License v2
+ */
+
+
+html,
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Loading Section. */
+#loading {
+  text-align: center;
+}
+
+#loading img {
+  max-width: 250px;
+}
+
+#loading .progress {
+  background-color: #333;
+  height: 5px;
+}
+
+#loading .progress-bar {
+  background-color: #fff;
+}
+
+#loading .contents {
+  margin-top: 200px; /* differs for screen ratio used! */
+}
+
+/* Crash section. */
+#crash {
+  position: absolute;
+  top 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  font-family: "Open Sans";
+  text-align: center;
+  padding: 0 30px;
+}
+
+#crash textarea {
+  max-width: 100%;
+}
